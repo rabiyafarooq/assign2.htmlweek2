@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grids snd Position</title>
+    <style>
+      .parent {
+        border: 20px solid rgb(0, 255, 21);/* not getting applied */
+      }
+      section:nth-child(1) {
+        border: 5px solid pink;
+      }
+      section:nth-child(2) {
+        border: 5px solid rgb(147, 230, 140);
+      }
+      section:nth-child(3) {
+        border: 5px solid rgb(192, 255, 213);
+      }
+      section:nth-child(4) {
+        border: 5px solid rgb(0, 0, 0); /* this is getting applie */
+      }
+      section:nth-child(5) {
+        border: 5px solid rgb(243, 245, 155);
+      }
+    </style>
+  </head>
+  <body>
+    <header><h2>Grids and Position</h2></header>
+    <header>
+      <h3>CSS Positions and Grids</h3>
+    </header>
+    <article>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+      excepturi, pariatur soluta unde eligendi id, vero ipsa dolores optio
+      expedita voluptatem sit, quae voluptate! Cumque sint aperiam quis
+      perspiciatis, at, totam assumenda corrupti velit blanditiis soluta vero,
+      accusamus odit obcaecati expedita nostrum quasi libero explicabo eveniet
+      illo veritatis itaque. Tempora.
+    </article>
+    <section class="parent">
+      Parent
+      <section class="child1">child 1</section>
+      <section class="child2">child 2</section>
+      <section class="child2">child 3</section>
+      <section class="child2">child 4</section>
+      <section class="child2">child 5</section>
+    </section>
+  </body>
+</html>
